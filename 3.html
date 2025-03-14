@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <div class="container">
+            <div class="line"></div>
+            <div class="content">Register Here </div>
+            <div class="line"></div>
+        </div>
+        <h2> Please Fill and Submit Form: </h2>
+        <label for="name"> Name: </label>
+        <input type="text" name="name" id="name" placeholder="Enter your name"/>  <br><br>
+
+        <label for="email"> Email: </label>
+        <input type="email" name="email" id="email" placeholder="Enter your email"/>   <br><br>
+
+        <label for="age"> Age: </label>
+        <input type="text" name="age" id="age" placeholder="Enter your age"/>   <br><br>
+
+        <label for="dob"> Date of Birth: </label>
+        <input type="date" name="dob" id="dob" />   <br><br>
+
+        <label for="pno"> Phone Number: </label>
+        <select name="pno" id="pno" >
+            <option> Select your country code </option>
+            <option> IND(91) </option>
+            <option> Australia(61)</option>
+            <option> Azerbaijan(994)</option>
+            <option> Afghanistan(93)</option>   
+        </select>
+        <input type="text" name="pno" id="pno" placeholder="Enter your phone number" />   <br><br>
+
+        <label for="gender"> Gender: </label>
+        <input type="radio" name="gender" id="male" />
+        <label for="male"> Male </label>
+        <input type="radio" name="gender" id="female" />
+        <label for="female"> Female </label>
+        <input type="radio" name="gender" id="other" />
+        <label for="other"> Other </label>    <br><br>
+
+        <label for="che"> Choose your Skill level:</label>   
+        <input type="checkbox" name="che" id="beg" />
+        <label for="beg"> Beginner </label>  
+        <input type="checkbox" name="che" id="int" />
+        <label for="int"> Intermediate </label> 
+        <input type="checkbox" name="che" id="adv" />
+        <label for="adv"> Advanced </label>      <br><br>
+
+        <label for="color"> Select your favorite color: </label>
+        <input type="color" name="color" id="color" />   <br><br>
+ 
+        <label for="fname"> Father Name: </label>
+        <input type="text" name="fname" id="fname" placeholder="Enter your Father name"/>    <br><br>
+
+        <label for="lang"> Choose your language: </label>
+        <input type="checkbox" name="lang" id="tam" />
+        <label for="tam"> Tamil </label>
+        <input type="checkbox" name="lang" id="eng" />
+        <label for="eng"> English </label>
+        <input type="checkbox" name="lang" id="mal" />
+        <label for="mal"> Malayalam </label>     <br><br>
+
+        <label for="hobby"> Hobbies: </label>
+        <input type="text" name="hobby" id="hobby" placeholder="Enter your Hobbies" />    <br><br>
+
+        <label for="addr"> Address: </label>
+        <textarea rows="3" cols="30"> </textarea>    <br><br>
+
+        <input type="submit" />
+    </center>
+
+    <style>
+        .container 
+        {
+            display: flex;
+            align-items: center;
+            width: 80%;
+            margin-top: 20px;
+        }
+        .line 
+        {
+            flex-grow: 1;
+            height: 2px;
+            background-color: black;
+        }
+        .content 
+        {
+            position: relative;
+            top: -5px; 
+            padding: 0 20px;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            white-space: nowrap;
+            background-color: white; 
+        }
+    </style>
+</body>
+</html>
